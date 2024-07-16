@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Thita Choomuang Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Image/Logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="Portfolio.html">MY PORTFOLIO</a></li>
+                            <li><a href="AboutMe.html">ABOUT ME</a></li>
+                            <li><a href="Contact.html">CONTACT</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Thita Choomuang</h1>
+                <p>Passionate Senior Computer Engineering Student From Prince of Songkhla University,<br> Eager to Apply Skills and Knowledge.</p>
+                <a href="Portfolio.html" class="hero-btn">See My Portfolio</a>
+            </div>
+        </section>
+
+<!---See My Port-->>
+<section class="portfolio">
+    <h1>My Portfolio</h1>
+    <p>See My Activities And Experience</p>
+    <div class="row">
+        <div class="port-col">
+            <h3>Cannabis X Website Project</h3>
+            <br><img src="Image/">
+            <p>Make E-Commerce Website
+                <br>My project when I was Fresher.
+                <br>Working with Dr.Suchart Mankongpitackul CEO Cannabis X
+                <br>I am mainly responsible for talking with the CEO, designing and developing the frontend.
+                <br><img src="Image/">
+            </p>
+        </div>
+        
+        <div class="port-col">
+            <h3>Hangman Game Project</h3>
+            <br><img src="Image/">
+            <p>Make Hangman Game
+                <br>My project when I was Sophomore.
+                <br>This project our team making hangman game, can play on computer and smartphone.
+                <br><img src="Image/">
+            </p>
+        </div>
+    </div>
+</section>
+
+<!---About Me-->>
+<section class="aboutme">
+    <h4>About Me</h4>
+    <p>
+        My Name is Thita Choomuang. My Nickname is Nammon.
+        <br>Senior Computer Engineering Student At Prince of Songkla University.
+        <br>My Hard Skills
+        <br><img src="Image/">
+        <br>My Soft Skills
+        <br>Communication, Creative, Teamwork, Meeting Deadlines
+    </p>
+</section>
+
+<!---CTA-->
+<section class="cta">
+    <h1>Want To Know Me More</h1>
+    <a href="Contact.html" class="hero-btn">MY CONTACT</a>
+</section>
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+
+</html>

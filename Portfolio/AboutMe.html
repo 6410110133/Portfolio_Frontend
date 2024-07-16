@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Thita Choomuang Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Image/Logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="Portfolio.html">MY PORTFOLIO</a></li>
+                            <li><a href="AboutMe.html">ABOUT ME</a></li>
+                            <li><a href="Contact.html">CONTACT</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu"></i>
+            </nav>
+            <h1>ABOUT ME</h1>
+        </section>
+
+<!---about me content-->>
+<section class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <img src="Image/MePortriat.jpg">
+        </div>
+        <div class="about-col">
+            <h1>Thita Choomuang</h1>
+            <p>
+                My Nickname is Nammon.
+                <br>My Date of Birth is 27 October,2002.
+                <br>Senior Computer Engineering Student At Prince of Songkla University.
+                <br>I am interested in UX/UI, designing web pages or applications that are beautiful and easy to use.
+                <br>My Hard Skills
+                <br><img src="Image/">
+                <br>My Soft Skills
+                <br>Communication, Creative, Teamwork, Meeting Deadlines
+            </p>
+            <h2>Education</h2>
+            <p>
+                Prince of Songkla University
+                <br>Major in Computer Engineering
+                <br>2021 - 2025 (GPA 3.57)
+            </p>
+            <p>
+                Mahavajiravudh Songkhla School
+                <br>Science Math Ability Program
+                <br>2015 - 2020 (GPA 3.70)
+            </p>
+
+
+            <a href="" class="hero-btn red-btn">CONTACT ME</a>
+        </div>
+
+    </div>
+
+</section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+
+</html>
